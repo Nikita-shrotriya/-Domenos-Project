@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    width: 95%;
+}
+nav{
+    width: 90%;
+    background-color: blue;
+    height: 60px;
+    line-height: 80px;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 30px;
+    color:#fff;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    transition: 0.5s all ease;
+}
+ul{
+    margin: 0px;
+}
+ul li{
+    float: left;
+    padding: 0px 8px;
+    list-style: none;
+}
+ul li a:hover{
+    color: red;
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left: 23%;
+    transform: translate(-50%,-50%);
+    content: rgb(46, 42, 42);
+    text-align: right;
+    background: rgba(0,0,0,0.5s);
+}
+.content p{
+    padding: 10px 50px;
+    font-size: 20px;
+}
+
+button{
+    background: none;
+    border: 1px solid rgb(15, 10, 14);
+    color:rgb(20, 18, 18);
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 6px;
+    transition: 0.5s all ease;
+
+}
+button:hover{
+    background:black;
+    color: blue;
+}
+button{
+    background: none;
+}
